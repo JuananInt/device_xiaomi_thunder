@@ -1,11 +1,11 @@
 [
 	{
-		"repository":	"kernel_xiaomi_everpal",
-		"target_path":	"kernel/xiaomi/everpal"
+		"repository":	"kernel_xiaomi_thunder",
+		"target_path":	"kernel/xiaomi/thunder"
 	},
 	{
-		"repository":	"vendor_xiaomi_everpal",
-		"target_path":	"vendor/xiaomi/everpal"
+		"repository":	"vendor_xiaomi_thunder",
+		"target_path":	"vendor/xiaomi/thunder"
 	},
 	{
 		"remote":	"github",

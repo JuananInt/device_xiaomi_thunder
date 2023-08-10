@@ -11,21 +11,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Pixel Experience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Inherit from everpal device
-$(call inherit-product, device/xiaomi/everpal/device.mk)
+# Inherit from thunder device
+$(call inherit-product, device/xiaomi/thunder/device.mk)
 
 # PixelExperience Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_AOSP_RECOVERY := true
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := aosp_everpal
-PRODUCT_DEVICE := everpal
+PRODUCT_NAME := arrow_thunder
+PRODUCT_DEVICE := thunder
 PRODUCT_MANUFACTURER := xiaomi
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := everpal
+PRODUCT_MODEL := thunder
 
 # Build info
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

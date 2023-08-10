@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_everpal.mk
+    $(LOCAL_DIR)/arrow_thunder.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_everpal-user \
-    aosp_everpal-userdebug \
-    aosp_everpal-eng
+    arow_thunder-user \
+    arrow_thunder-userdebug \
+    arrow_thunder-eng
